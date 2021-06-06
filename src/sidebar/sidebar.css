@@ -24,7 +24,7 @@
 .sidebar .logo a {
   display: inline-block;
   font-family: "Rubik", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 900;
   color: #302e4d;
   padding: 0 10px;
@@ -180,6 +180,6 @@
 }
 
 .copyright {
-  font-size: 13px;
+  font-size: 0.8rem;
   color: #7d7d7d;
 }

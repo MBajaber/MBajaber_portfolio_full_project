@@ -1,0 +1,115 @@
+.contact {
+}
+.contact .contact-section {
+}
+
+.contact .content_info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px 15px;
+}
+
+@media (max-width: 350px) {
+  .contact .content_info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.contact .content_info .content_info_item {
+  text-align: center;
+}
+
+.contact .content_info .content_info_item .icon {
+  margin-bottom: 25px;
+}
+
+.contact .content_info .content_info_item .icon svg {
+  color: #ec1839;
+}
+
+.contact .content_info .content_info_item h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #302e4d;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.contact .content_info .content_info_item p {
+  font-weight: 400;
+  color: #504e70;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.contact .form {
+  margin: 40px 0;
+}
+
+.contact .form .form-div {
+  margin-bottom: 15px;
+}
+
+.contact .form .form-half {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .form .form-half input {
+  flex-basis: 47%;
+}
+
+@media (max-width: 650px) {
+  .contact .form .form-half {
+    display: block;
+  }
+  .contact .form .form-half input {
+    flex-basis: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+.contact .form input,
+.contact .form textarea {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #d4d4e3;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #504e70;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: 0;
+}
+
+.contact .form textarea {
+  height: 140px;
+  resize: vertical;
+}
+
+.contact .form .submit {
+  background-color: #ec1839;
+  height: 50px;
+  padding: 0 50px;
+  padding: 12px 35px;
+  border-radius: 40px;
+  cursor: pointer;
+  border: 0;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  white-space: nowrap;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 650px) {
+  .contact .form .submit {
+    padding: 12px 22px;
+  }
+}

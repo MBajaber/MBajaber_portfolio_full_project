@@ -1,0 +1,28 @@
+.portfolio .portfolio-section {
+}
+.portfolio .portfolio-section .navlist {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.portfolio .portfolio-section .navlist button {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 10px;
+  color: #302e4d;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio .portfolio-section .navlist button.active {
+  color: #ec1839;
+}

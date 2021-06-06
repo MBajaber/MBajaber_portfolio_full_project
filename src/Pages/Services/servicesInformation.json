@@ -1,0 +1,32 @@
+[
+  {
+    "icon":"BsLaptop",
+    "title":"web design",
+    "paragraph":"Design a responsive web site for you .. With Html5 , CSS3 , Javascript , JQ and Bootstrap."
+  },
+  {
+    "icon":"HiPhotograph",
+    "title":"Responsive Design",
+    "paragraph":"I can design a 100% Responsive website compatible with all devices and Mobiles."
+  },
+  {
+    "icon":"BsCodeSlash",
+    "title":"Creative Design",
+    "paragraph":"I Can Edit Your Current WebSite .. Like Color or Add A new Content To Make it Seem Better and Gives some new idea on Projects."
+  },
+  {
+    "icon":"BiSupport",
+    "title":"Support",
+    "paragraph":"Support is availble if you want any changes in your website you can ask for it anytime."
+  },
+  {
+    "icon":"FaRocket",
+    "title":"Web Idea",
+    "paragraph":"I can turn your ideas to real projects with high quality and give you more ideas to make your website cool."
+  },
+  {
+    "icon":"FaPaintBrush",
+    "title":"Retouch",
+    "paragraph":"If You Have a Website And Want to Create A new Desgin For It I Can do That Easliy and In a Perfect Way."
+  }
+]

@@ -1,0 +1,57 @@
+.services-item {
+  background-color: #fdf9ff;
+  border: 1px solid #d4d4e3;
+  border-radius: 10px;
+  padding: 30px 15px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.services-item:hover {
+  -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.services-item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.services-item .icon svg {
+  font-size: 40px;
+  line-height: 60px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #ec1839;
+}
+
+.services-item:hover .icon {
+  background-color: #ec1839;
+}
+
+.services-item:hover .icon svg {
+  font-size: 25px;
+  color: #fff;
+}
+
+.services-item h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #302e4d;
+  font-weight: bold;
+}
+
+.services-item p {
+  font-size: 16px;
+  color: #504e70;
+}
