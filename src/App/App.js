@@ -2,9 +2,10 @@ import React, { lazy, Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Layout from '../layout/layout';
 import Loader from '../components/Loader/Loader';
+import SudebarLazy from '../sidebar/sidebar';
 
 function App() {
-  const SudebarLazy = lazy(() => import('../sidebar/sidebar'));
+  // const SudebarLazy = lazy(() => import('../sidebar/sidebar'));
   const MainLazy = lazy(() => import('../Pages/Home/home'));
   const AboutLazy = lazy(() => import('../Pages/About/about'));
   const Sevices = lazy(() => import('../Pages/Services/Services'));
@@ -22,14 +23,15 @@ function App() {
       <Route path='/portfolio' component={Portfolio} />
     </Switch>
   );
+
   return (
     <div className="App">
-      <Suspense fallback={<Loader />}>
-        <SudebarLazy />
-          <Layout>
+      <SudebarLazy />
+      <Layout>
+          <Suspense fallback={<Loader />}>
             {routers}
-          </Layout>
-        </Suspense>
+          </Suspense>
+        </Layout>
     </div>
   );
 }

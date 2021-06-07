@@ -3,14 +3,7 @@ import './about.css';
 import { NavLink } from 'react-router-dom';
 import { AiTwotoneCalendar } from 'react-icons/ai';
 import Title from '../../components/Titles/title';
-import Html from '../../assets/skills/html.png';
-import Css from '../../assets/skills/css.png';
-import JavaScript from '../../assets/skills/javascript.png';
-import Bootstrap from '../../assets/skills/bootstrap.png';
-import Sass from '../../assets/skills/sass.png';
-import Git from '../../assets/skills/git.png';
-import Jquery from '../../assets/skills/jquery.png';
-import ReactIMG from '../../assets/skills/react.png';
+import aboutInfo from './aboutInfo.json';
 
 function about() {
     return (
@@ -25,30 +18,13 @@ function about() {
             <div className='person-info'>
                 <h2 className='section-title'>Skills:</h2>
                 <div className='skills'>
-                    <div className='image html'>
-                        <img src={Html} alt='HTML' title='HTML' loading='lazy' />
-                    </div>
-                    <div className='image css'>
-                        <img src={Css} alt='Css' title='Css' loading='lazy' />
-                    </div>
-                    <div className='image jquery'>
-                        <img src={Jquery} alt='Jquery' title='Jquery' loading='lazy' />
-                    </div>
-                    <div className='image sass'>
-                        <img src={Sass} alt='Sass' title='Sass' loading='lazy' />
-                    </div>
-                    <div className='image react'>
-                        <img src={ReactIMG} alt='React' title='React' loading='lazy' />
-                    </div>
-                    <div className='image javaScript'>
-                        <img src={JavaScript} alt='JavaScript' title='JavaScript' loading='lazy' />
-                    </div>
-                    <div className='image bootstrap'>
-                        <img src={Bootstrap} alt='Bootstrap' title='Bootstrap' loading='lazy' />
-                    </div>
-                    <div className='image git'>
-                        <img src={Git} alt='Git' title='Git' loading='lazy' />
-                    </div>
+                    {
+                        aboutInfo.map((box, index) => (
+                            <div key={`${box.alt}_${index}`} className={`image ${box.class}`}>
+                                <img src={process.env.PUBLIC_URL + box.link} alt={box.alt} title={box.alt} loading='lazy' />
+                            </div>        
+                        ))
+                    }
                 </div>
                 <div className='personal_info'>
                     <h2 className='section-title'>information:</h2>
