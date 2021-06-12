@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Loader.css';
+import { MyContext } from '../../Context/context';
 
 const Loader = () => {
+    const context = useContext(MyContext);
     return (
         <div className='loader'>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div style={{borderColor: `${context.mainColor} transparent transparent transparent`}}></div>
+            <div style={{borderColor: `${context.mainColor} transparent transparent transparent`}}></div>
+            <div style={{borderColor: `${context.mainColor} transparent transparent transparent`}}></div>
+            <div style={{borderColor: `${context.mainColor} transparent transparent transparent`}}></div>
         </div>
     )
 }

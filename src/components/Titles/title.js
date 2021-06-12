@@ -1,10 +1,15 @@
-import React from 'react';
-import './title.css';
+import React, { useContext } from 'react';
+// import './title.css';
+import { MyContext } from '../../Context/context';
+import { TitleStyled } from './titleStyled';
 
-const title = (props) => (
-    <div className='title'>
-        <h2>{props.text}</h2>
-    </div>
-)
+const Title = (props) => {
+    const context = useContext(MyContext);
+    return (
+        <TitleStyled color={context.mainColor} themeStyle={context.themeStyle} theme={context.theme}>
+            <h2>{props.text}</h2>
+        </TitleStyled>
+    )
+}
 
-export default title
+export default Title;

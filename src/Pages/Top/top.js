@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Title from '../../components/Titles/title';
 import Toplist from '../../components/toplist/toplist';
 import TopsInfo from './topInfo.json';
 import './top.css';
+import { MyContext } from '../../Context/context';
 
-function top() {
+function Top() {
+    const context = useContext(MyContext);
     return (
-        <div className='tops'>
+        <div className='top'>
             <Title text='Latest Top' />
-            <div className='tops-content'>
+            <div className='top_content'>
                 {TopsInfo.map((list, index) => (
                     <Toplist
                         key={`${list.link}_${index}`}
@@ -18,6 +20,7 @@ function top() {
                         title={list.title}
                         paragraph={list.paragraph}
                         tags={list.tags}
+                        color={context.mainColor}
                     />
                 ))}
             </div>
@@ -25,4 +28,4 @@ function top() {
     )
 }
 
-export default top
+export default Top;

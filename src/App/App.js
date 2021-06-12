@@ -1,17 +1,27 @@
-import React, { lazy, Suspense } from 'react';
+import React, { lazy, Suspense, useContext, useState, useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Layout from '../layout/layout';
 import Loader from '../components/Loader/Loader';
-import SudebarLazy from '../sidebar/sidebar';
+import Sudebar from '../sidebar/sidebar';
+import { MyContext } from '../Context/context';
 
 function App() {
-  // const SudebarLazy = lazy(() => import('../sidebar/sidebar'));
+  const context = useContext(MyContext);
+  const mainColor = useState(JSON.parse(localStorage.getItem('main_color')) || context.mainColor)[0];
+  const theme = useState(JSON.parse(localStorage.getItem('theme')) || context.isDarkTheme)[0];
+  // console.log(theme)
+  useEffect(() => {
+    context.changeColor(mainColor);
+    context.toggleTheme(theme); 
+  }, []);
+
   const MainLazy = lazy(() => import('../Pages/Home/home'));
   const AboutLazy = lazy(() => import('../Pages/About/about'));
   const Sevices = lazy(() => import('../Pages/Services/Services'));
   const Tops = lazy(() => import('../Pages/Top/top'));
   const Contact = lazy(() => import('../Pages/Contact/contact'));
   const Portfolio = lazy(() => import('../Pages/Portfolio/portfolio'));
+  const PageNotFound = lazy(() => import('../Pages/404Page/404Page'));
 
   const routers = (
     <Switch>
@@ -21,17 +31,18 @@ function App() {
       <Route path='/top' component={Tops} />
       <Route path='/contact' component={Contact} />
       <Route path='/portfolio' component={Portfolio} />
+      <Route component={PageNotFound} />
     </Switch>
   );
-
+    // MBajaber.github.io
   return (
     <div className="App">
-      <SudebarLazy />
-      <Layout>
+      <Sudebar />
+        <Layout>
           <Suspense fallback={<Loader />}>
             {routers}
           </Suspense>
-        </Layout>
+          </Layout>
     </div>
   );
 }

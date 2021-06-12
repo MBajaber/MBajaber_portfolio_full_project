@@ -1,11 +1,14 @@
 .loader {
-  display: inline-block;
   position: absolute;
-  width: 80px;
-  height: 80px;
   top: 50%;
   left: 50%;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
   transform: translate(-50%, -50%);
+  padding: 0;
+  min-width: 0;
+  min-height: 0;
 }
 
 .loader > div {
@@ -18,7 +21,6 @@
   border: 8px solid #fff;
   border-radius: 50%;
   animation: ldsRing 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #ec1839 transparent transparent transparent;
 }
 
 .loader > div:nth-child(1) {

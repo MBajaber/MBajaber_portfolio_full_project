@@ -1,13 +1,15 @@
-import React from 'react';
-import './about.css';
+import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { AiTwotoneCalendar } from 'react-icons/ai';
 import Title from '../../components/Titles/title';
 import aboutInfo from './aboutInfo.json';
+import { MyContext } from '../../Context/context';
+import { AboutStyled } from './aboutStyled';
 
-function about() {
+function About() {
+    const context = useContext(MyContext);
     return (
-        <div className='about'>
+        <AboutStyled color={context.mainColor} themeStyle={context.themeStyle} theme={context.theme}>
             <Title text='about me' />
             <div className='about-text'>
                 <h3>
@@ -47,11 +49,11 @@ function about() {
                         </li>
                         <li>
                             Phone-1 :
-                            <span>+966 561034303</span>
+                            <span>+966 578900968</span>
                         </li>
                         <li>
                             Phone-2 :
-                            <span>+966 578900968</span>
+                            <span>+966 561034303</span>
                         </li>
                         <li>
                             City :
@@ -64,7 +66,7 @@ function about() {
                     </ul>
                     <div className='about_btn_links'>
                         <a href='Mohammed Ahmed Bajaber CV (Front-End Developer).pdf' target='_blank'>download cv</a>
-                        <NavLink to='/content'>hire me</NavLink>
+                        <NavLink to='/contact'>hire me</NavLink>
                     </div>
                 </div>
                 <div className="education">
@@ -100,8 +102,8 @@ function about() {
                     </div>
                 </div>
             </div>
-        </div>
+        </AboutStyled>
     )
 }
 
-export default about;
+export default About;

@@ -1,10 +1,12 @@
-import React from 'react';
-import './layout.css';
+import React, { useContext } from 'react';
+import { LayoutStyled } from './layoutStyled';
+import { MyContext } from '../Context/context';
 
-export default function layout(props) {
+export default function Layout(props) {
+    const context = useContext(MyContext);
     return (
-        <div className='layout_content'>
+        <LayoutStyled themeStyle={context.themeStyle} theme={context.theme} className={context.sidebarOpen ? 'open' : ''}>
             {props.children}
-        </div>
+        </LayoutStyled>
     )
 }

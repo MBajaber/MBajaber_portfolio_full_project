@@ -10,14 +10,14 @@
         "link": "/skills/css.png"
     },
     {
-        "class": "jquery",
-        "alt": "Jquery",
-        "link": "/skills/jquery.png"
-    },
-    {
         "class": "sass",
         "alt": "Sass",
         "link": "/skills/sass.png"
+    },
+    {
+        "class": "jquery",
+        "alt": "Jquery",
+        "link": "/skills/jquery.png"
     },
     {
         "class": "react",

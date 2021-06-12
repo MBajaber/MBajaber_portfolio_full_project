@@ -1,19 +1,22 @@
-import React from 'react';
-import './Services.css';
+import React, { useContext } from 'react';
 import Title from '../../components/Titles/title';
 import ServerList from '../../components/servicesList/servicesList';
 import { BsLaptop, BsCodeSlash } from 'react-icons/bs';
 import { HiPhotograph } from 'react-icons/hi';
 import { BiSupport } from 'react-icons/bi';
 import { FaRocket, FaPaintBrush } from 'react-icons/fa';
-import ServersInfo from './servicesInformation.json'
+import ServersInfo from './servicesInformation.json';
+import './services.css';
+import { MyContext } from '../../Context/context';
 
 function Services() {
     const iconsSVG = [BsLaptop, BsCodeSlash, HiPhotograph, BiSupport, FaRocket, FaPaintBrush];
+    const context = useContext(MyContext);
+    
     return (
         <div className='services'>
             <Title text='Services' />
-            <div className='services-content'>
+            <div className='services_content'>
                 {
                     ServersInfo.map((list, index) => {
                         return (
@@ -22,6 +25,7 @@ function Services() {
                                 Icon={iconsSVG[index]}
                                 title={list.title}
                                 paragraph={list.paragraph}
+                                color={context.mainColor}
                             />
                         )
                     })

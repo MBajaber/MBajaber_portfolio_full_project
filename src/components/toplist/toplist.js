@@ -1,22 +1,28 @@
-import React from 'react';
-import './toplist.css';
+import React, { useContext } from 'react';
+// import './toplist.css';
+import { TopListStyled } from './toplistStyled';
+import { MyContext } from '../../Context/context';
 
-function toplist(props) {
+function Toplist(props) {
+    // ${({themeStyle , theme}) => themeStyle[theme].pramiaryTextColor}
+    const context = useContext(MyContext);
     return (
-        <div className='top-item'>
-            <div className="top-img">
-                <img src={props.link} alt={props.alt} loading='lazy' />
-                <span className="top-date">{props.date}</span>
+        <TopListStyled themeStyle={context.themeStyle} theme={context.theme}>
+            <div className='info'>
+                <div className='top-img'>
+                    <img src={props.link} alt={props.alt} loading='lazy' />
+                    <span className="top-date" style={{backgroundColor: props.color}}>{props.date}</span>
+                </div>
+                <div className="top_info">
+                    <h4 className="top-title">{props.title}</h4>
+                    <p className="top-descri">{props.paragraph}</p>
+                </div>
             </div>
-            <div className="top_info">
-                <h4 className="top-title">{props.title}</h4>
-                <p className="top-descri">{props.paragraph}</p>
+            <div className="top-tags">
+                Tags: {props.tags.map(tag => <button key={`${tag}_${Math.random() * 10000}`}><a style={{color: props.color}} href={`#${tag.toLowerCase()}`}>{tag}</a>,</button> )}
             </div>
-            <p className="top-tags">
-                Tags: {props.tags.map(tag => <button key={`${tag}_${Math.random() * 10000}`}><a href={`#${tag.toLowerCase()}`}>{tag}</a>,</button> )} 
-            </p>
-        </div>
+        </TopListStyled>
     )
 }
 
-export default toplist;
+export default Toplist;

@@ -3,91 +3,182 @@
         "text": "Game Page",
         "type": ["all", "single"],
         "photoLink": "/portfolio/p1.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/Game_website",
+        "websiteLink": "https://stoic-golick-57743d.netlify.app/"
     },
     {
         "text": "Movie Page 1",
         "type": ["all", "movie"],
         "photoLink": "/portfolio/p2.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/Al-Shasha-Movies-Website",
+        "websiteLink": "https://focused-benz-1fb12c.netlify.app/"
     },
     {
         "text": "Movie Page 2",
         "type": ["all", "movie"],
         "photoLink": "/portfolio/p3.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/Al-Shasha-Movies-Website",
+        "websiteLink": "https://focused-benz-1fb12c.netlify.app/movie-page.html"
     },
     {
         "text": "Company Page",
         "type": ["all", "single"],
         "photoLink": "/portfolio/p4.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/design_company",
+        "websiteLink": "https://admiring-kalam-54a000.netlify.app/"
     },
     {
         "text": "Restaurant Page",
         "type": ["all", "restaurant"],
         "photoLink": "/portfolio/p5.png",
-        "githubLink": "",
-        "websiteLink": ""
-    },
-    {
-        "text": "Company Page",
-        "type": ["all", "single"],
-        "photoLink": "/portfolio/p6.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/Restaurant-Website",
+        "websiteLink": "https://priceless-kare-b380c3.netlify.app/"
     },
     {
         "text": "Portfolio Page",
         "type": ["all", "single"],
         "photoLink": "/portfolio/p7.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/personal_website",
+        "websiteLink": "https://objective-torvalds-f01c13.netlify.app/"
     },
     {
         "text": "Shoping Page 1",
         "type": ["all", "shopping"],
         "photoLink": "/portfolio/p8.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/Al-Mansa-Online-Shopping",
+        "websiteLink": "https://lucid-nobel-74b8d3.netlify.app/"
     },
     {
         "text": "Shoping Page 2",
         "type": ["all", "shopping"],
         "photoLink": "/portfolio/p9.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/Al-Mansa-Online-Shopping",
+        "websiteLink": "https://lucid-nobel-74b8d3.netlify.app/page-item.html"
     },
     {
         "text": "Shoping Page 3",
         "type": ["all", "shopping"],
         "photoLink": "/portfolio/p10.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/Al-Mansa-Online-Shopping",
+        "websiteLink": "https://lucid-nobel-74b8d3.netlify.app/shop-cart.html"
     },
     {
         "text": "Udemy Page",
         "type": ["all", "single"],
         "photoLink": "/portfolio/p11.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/udemy_main_page",
+        "websiteLink": "https://gifted-morse-3ca54c.netlify.app/"
+    },
+    {
+        "text": "Company Page",
+        "type": ["all", "single"],
+        "photoLink": "/portfolio/p27.png",
+        "githubLink": "https://github.com/MBajaber/Rapid_Single_Page",
+        "websiteLink": "https://quizzical-swartz-405fc3.netlify.app/"
     },
     {
         "text": "Company Page",
         "type": ["all", "single"],
         "photoLink": "/portfolio/p12.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/AXIT-Company",
+        "websiteLink": "https://cocky-poincare-e983d5.netlify.app/"
     },
     {
         "text": "Game Page",
         "type": ["all", "single"],
         "photoLink": "/portfolio/p13.png",
-        "githubLink": "",
-        "websiteLink": ""
+        "githubLink": "https://github.com/MBajaber/SMIT_GAMES_WEBSITE",
+        "websiteLink": "https://brave-fermi-a6c270.netlify.app/"
+    },
+    {
+        "text": "myQuran App Main Page 1",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p14.png",
+        "githubLink": "https://github.com/MBajaber/my_quran_app_full_source",
+        "websiteLink": "https://myquran-c6fc9.web.app/"
+    },
+    {
+        "text": "myQuran App Favorite Page 2",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p15.png",
+        "githubLink": "https://github.com/MBajaber/my_quran_app_full_source",
+        "websiteLink": "https://myquran-c6fc9.web.app/"
+    },
+    {
+        "text": "myQuran App Sign In 3",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p16.png",
+        "githubLink": "https://github.com/MBajaber/my_quran_app_full_source",
+        "websiteLink": "https://myquran-c6fc9.web.app/login"
+    },
+    {
+        "text": "myQuran App Radio Page 4",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p17.png",
+        "githubLink": "https://github.com/MBajaber/my_quran_app_full_source",
+        "websiteLink": "https://myquran-c6fc9.web.app/radios"
+    },
+    {
+        "text": "myQuran App Imam Page 5",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p18.png",
+        "githubLink": "https://github.com/MBajaber/my_quran_app_full_source",
+        "websiteLink": "https://myquran-c6fc9.web.app/"
+    },
+    {
+        "text": "myQuran App Sign up Page 6",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p19.png",
+        "githubLink": "https://github.com/MBajaber/my_quran_app_full_source",
+        "websiteLink": "https://myquran-c6fc9.web.app/signup"
+    },
+    {
+        "text": "myQuran App 404 Page 7",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p20.png",
+        "githubLink": "https://github.com/MBajaber/my_quran_app_full_source",
+        "websiteLink": "https://myquran-c6fc9.web.app"
+    },
+    {
+        "text": "Portfolio Page 1",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p21.png",
+        "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
+        "websiteLink": "https://mbajaber.github.io"
+    },
+    {
+        "text": "Portfolio Page 2",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p22.png",
+        "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
+        "websiteLink": "https://mbajaber.github.io/about"
+    },
+    {
+        "text": "Portfolio Page 3",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p23.png",
+        "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
+        "websiteLink": "https://mbajaber.github.io/contact"
+    },
+    {
+        "text": "Portfolio Page 4",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p24.png",
+        "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
+        "websiteLink": "https://mbajaber.github.io/portfolio"
+    },
+    {
+        "text": "Portfolio Page 5",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p25.png",
+        "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
+        "websiteLink": "https://mbajaber.github.io/services"
+    },
+    {
+        "text": "Portfolio Page 6",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p26.png",
+        "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
+        "websiteLink": "https://mbajaber.github.io/top"
     }
 ]

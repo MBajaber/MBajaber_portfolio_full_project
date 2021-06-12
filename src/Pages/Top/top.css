@@ -1,11 +1,11 @@
-.tops-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
+.top_content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
 }
 
 @media (max-width: 400px) {
-  .tops-content {
-    grid-template-columns: repeat(1, 1fr);
-  }
+    .top_content {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
