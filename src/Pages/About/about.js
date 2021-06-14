@@ -65,7 +65,7 @@ function About() {
                         </li>
                     </ul>
                     <div className='about_btn_links'>
-                        <a href='Mohammed Ahmed Bajaber CV (Front-End Developer).pdf' target='_blank'>download cv</a>
+                        <a href={process.env.PUBLIC_URL + 'Mohammed Bajaber ( Front End Developer ).pdf'} target='_blank' rel="noreferrer">download cv</a>
                         <NavLink to='/contact'>hire me</NavLink>
                     </div>
                 </div>
