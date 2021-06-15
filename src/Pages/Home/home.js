@@ -14,13 +14,13 @@ function Home() {
                 <h2>Mohammed Bajaber</h2>
                 <p>I'm a Front End Developer</p>
                 <div className='social_icons'>
-                    <a href='https://www.linkedin.com/in/mohammed-bajaber' target='_blank' rel="noopener noreferrer" style={{backgroundColor: context.mainColor}} >
+                    <a href='https://www.linkedin.com/in/mohammed-bajaber' aria-label="LinkedIn" target='_blank' rel="noopener noreferrer" style={{backgroundColor: context.mainColor}} >
                         <FaLinkedinIn size={20} />
                     </a>
-                    <a href='https://github.com/MBajaber' target='_blank' rel="noopener noreferrer" style={{backgroundColor: context.mainColor}}>
+                    <a href='https://github.com/MBajaber' target='_blank' aria-label="Github" rel="noopener noreferrer" style={{backgroundColor: context.mainColor}}>
                         <AiFillGithub size={22} />
                     </a>
-                    <a href='https://twitter.com/m_bajaber7' target='_blank' rel="noopener noreferrer" style={{backgroundColor: context.mainColor}}>
+                    <a href='https://twitter.com/m_bajaber7' target='_blank' aria-label="Twitter" rel="noopener noreferrer" style={{backgroundColor: context.mainColor}}>
                         <AiOutlineTwitter size={22} />
                     </a>
                 </div>

@@ -144,41 +144,41 @@
         "type": ["all", "react"],
         "photoLink": "/portfolio/p21.png",
         "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
-        "websiteLink": "https://mbajaber.github.io"
+        "websiteLink": "mbajaber.github.io/"
     },
     {
         "text": "Portfolio Page 2",
         "type": ["all", "react"],
         "photoLink": "/portfolio/p22.png",
         "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
-        "websiteLink": "https://mbajaber.github.io/about"
+        "websiteLink": "mbajaber.github.io"
     },
     {
         "text": "Portfolio Page 3",
         "type": ["all", "react"],
         "photoLink": "/portfolio/p23.png",
         "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
-        "websiteLink": "https://mbajaber.github.io/contact"
+        "websiteLink": "mbajaber.github.io"
     },
     {
         "text": "Portfolio Page 4",
         "type": ["all", "react"],
         "photoLink": "/portfolio/p24.png",
         "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
-        "websiteLink": "https://mbajaber.github.io/portfolio"
+        "websiteLink": "mbajaber.github.io/"
     },
     {
         "text": "Portfolio Page 5",
         "type": ["all", "react"],
         "photoLink": "/portfolio/p25.png",
         "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
-        "websiteLink": "https://mbajaber.github.io/services"
+        "websiteLink": "mbajaber.github.io/"
     },
     {
         "text": "Portfolio Page 6",
         "type": ["all", "react"],
         "photoLink": "/portfolio/p26.png",
         "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
-        "websiteLink": "https://mbajaber.github.io/top"
+        "websiteLink": "mbajaber.github.io"
     }
 ]

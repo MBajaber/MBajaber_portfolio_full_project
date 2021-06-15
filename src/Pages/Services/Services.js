@@ -12,7 +12,6 @@ import { MyContext } from '../../Context/context';
 function Services() {
     const iconsSVG = [BsLaptop, BsCodeSlash, HiPhotograph, BiSupport, FaRocket, FaPaintBrush];
     const context = useContext(MyContext);
-    
     return (
         <div className='services'>
             <Title text='Services' />

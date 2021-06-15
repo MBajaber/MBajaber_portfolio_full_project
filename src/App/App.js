@@ -8,12 +8,6 @@ import { MyContext } from '../Context/context';
 function App() {
   const context = useContext(MyContext);
   const mainColor = useState(JSON.parse(localStorage.getItem('main_color')) || context.mainColor)[0];
-  const theme = useState(JSON.parse(localStorage.getItem('theme')) || context.isDarkTheme)[0];
-  // console.log(theme)
-  useEffect(() => {
-    context.changeColor(mainColor);
-    context.toggleTheme(theme); 
-  }, []);
 
   const MainLazy = lazy(() => import('../Pages/Home/home'));
   const AboutLazy = lazy(() => import('../Pages/About/about'));
@@ -22,6 +16,10 @@ function App() {
   const Contact = lazy(() => import('../Pages/Contact/contact'));
   const Portfolio = lazy(() => import('../Pages/Portfolio/portfolio'));
   const PageNotFound = lazy(() => import('../Pages/404Page/404Page'));
+
+  useEffect(() => {
+    context.changeColor(mainColor);
+  }, []);
 
   const routers = (
     <Switch>
@@ -35,6 +33,8 @@ function App() {
     </Switch>
   );
     // MBajaber.github.io
+    // MBajaber.github.io
+    //  https://nifty-brahmagupta-02b200.netlify.app/
   return (
     <div className="App">
       <Sudebar />
