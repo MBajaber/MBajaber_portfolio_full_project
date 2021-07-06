@@ -1,15 +1,14 @@
 [
     {
         "imageAlt":"shopping",
-        "date":"19 Nov 2020",
+        "date":"1 Jul 2021",
         "title":"responsive shopping Website",
-        "paragraph":"Shopping Creative design with Responsive on all Devices in the Arabic Language with 3 different Pages with different design page one for Landing page Show All Items and Second page for items Page with show all Color And Size City also change details and third page For Shopping Cart Show Items that Choose and see Price With Cost and Tax also if we have special Code Discount With All Information.",
-        "link": "/tops/p8.png",
+        "paragraph":"Shopping Creative design with Responsive on all Devices in the English Language with 7 different Pages with different design page one for Landing page Show All Items and Second page for items Page with show quantity, Size also you can make zoom on image item and third page For Shopping Card Show Items that Choose and see Price With Cost and we have checkout button to continue payment i connected on stripe checkout.",
+        "link": "/tops/p28.png",
         "tags":[
         "Html",
         "Css",
-        "Jquery",
-        "Bootstrap"
+        "React"
         ]
     },
     {
@@ -30,14 +29,13 @@
     {
         "imageAlt":"Movie Website",
         "date":"26 Jun 2020",
-        "title":"restaurant Website",
-        "paragraph":"Restaurant Website nice Design with Responsive on all Devices in the Arabic Language with One Landing Pages with Creative design Show All Foods and Information of Meals with some offers And Full Menu and different Food link Fish and soap and could Reservation Table choose Date and Time.",
+        "title":"Movie Website",
+        "paragraph":"Static Movie Website in the Arabic Language that has fantastic design and Responsive design with different Kinds of movies and nice animation when hover on movie card.",
         "link": "/tops/p2.png",
         "tags":[
         "Html",
         "Css",
-        "Jquery",
-        "Boootstrap"
+        "Javascripte"
         ]
     }
 ]

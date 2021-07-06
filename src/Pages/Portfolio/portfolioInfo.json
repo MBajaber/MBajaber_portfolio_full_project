@@ -180,5 +180,54 @@
         "photoLink": "/portfolio/p26.png",
         "githubLink": "https://github.com/MBajaber/MBajaber.github.io",
         "websiteLink": "mbajaber.github.io"
+    },
+    {
+        "text": "E-Commerce Shopping 1",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p28.png",
+        "githubLink": "https://github.com/MBajaber/e-commerce-shooping-app",
+        "websiteLink": "https://elegant-ramanujan-86644d.netlify.app"
+    },
+    {
+        "text": "E-Commerce Shopping 2",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p29.png",
+        "githubLink": "https://github.com/MBajaber/e-commerce-shooping-app",
+        "websiteLink": "https://elegant-ramanujan-86644d.netlify.app"
+    },
+    {
+        "text": "E-Commerce Shopping 3",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p30.png",
+        "githubLink": "https://github.com/MBajaber/e-commerce-shooping-app",
+        "websiteLink": "https://elegant-ramanujan-86644d.netlify.app"
+    },
+    {
+        "text": "E-Commerce Shopping 4",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p31.png",
+        "githubLink": "https://github.com/MBajaber/e-commerce-shooping-app",
+        "websiteLink": "https://elegant-ramanujan-86644d.netlify.app"
+    },
+    {
+        "text": "E-Commerce Shopping 5",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p32.png",
+        "githubLink": "https://github.com/MBajaber/e-commerce-shooping-app",
+        "websiteLink": "https://elegant-ramanujan-86644d.netlify.app"
+    },
+    {
+        "text": "E-Commerce Shopping 6",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p33.png",
+        "githubLink": "https://github.com/MBajaber/e-commerce-shooping-app",
+        "websiteLink": "https://elegant-ramanujan-86644d.netlify.app"
+    },
+    {
+        "text": "E-Commerce Shopping 7",
+        "type": ["all", "react"],
+        "photoLink": "/portfolio/p34.png",
+        "githubLink": "https://github.com/MBajaber/e-commerce-shooping-app",
+        "websiteLink": "https://elegant-ramanujan-86644d.netlify.app"
     }
 ]
