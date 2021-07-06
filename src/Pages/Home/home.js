@@ -10,7 +10,7 @@ function Home() {
     return (
         <HomeStyled themeStyle={context.themeStyle} theme={context.theme}>
             <div className='intro'>
-                <img className='my-photo' src={process.env.PUBLIC_URL + '/my_photo/my_photo.png'} alt='my personal Pic' loading='lazy' />
+                <img className='my-photo ' src={process.env.PUBLIC_URL + '/my_photo/my_photo.png'} alt='my personal Pic' loading='lazy' />
                 <h2>Mohammed Bajaber</h2>
                 <p>I'm a Front End Developer</p>
                 <div className='social_icons'>
