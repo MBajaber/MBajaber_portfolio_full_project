@@ -1,42 +1,37 @@
 [
-    {
-        "class": "html",
-        "alt": "HTML",
-        "link": "/skills/html.png"
-    },
-    {
-        "class": "css",
-        "alt": "Css",
-        "link": "/skills/css.png"
-    },
-    {
-        "class": "sass",
-        "alt": "Sass",
-        "link": "/skills/sass.png"
-    },
-    {
-        "class": "jquery",
-        "alt": "Jquery",
-        "link": "/skills/jquery.png"
-    },
-    {
-        "class": "react",
-        "alt": "React",
-        "link": "/skills/react.png"
-    },
-    {
-        "class": "javaScript",
-        "alt": "JavaScript",
-        "link": "/skills/javascript.png"
-    },
-    {
-        "class": "bootstrap",
-        "alt": "Bootstrap",
-        "link": "/skills/bootstrap.png"
-    },
-    {
-        "class": "git",
-        "alt": "Git",
-        "link": "/skills/git.png"
-    }
+  {
+    "class": "html",
+    "alt": "HTML",
+    "link": "/skills/html.png"
+  },
+  {
+    "class": "css",
+    "alt": "Css",
+    "link": "/skills/css.png"
+  },
+  {
+    "class": "sass",
+    "alt": "Sass",
+    "link": "/skills/sass.png"
+  },
+  {
+    "class": "react",
+    "alt": "React",
+    "link": "/skills/react.png"
+  },
+  {
+    "class": "javaScript",
+    "alt": "JavaScript",
+    "link": "/skills/javascript.png"
+  },
+  {
+    "class": "bootstrap",
+    "alt": "Bootstrap",
+    "link": "/skills/bootstrap.png"
+  },
+  {
+    "class": "git",
+    "alt": "Git",
+    "link": "/skills/git.png"
+  }
 ]
