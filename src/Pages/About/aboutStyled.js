@@ -69,7 +69,7 @@ export const AboutStyled = styled.div`
                     color: ${({themeStyle , theme}) => themeStyle[theme].pramiaryTextColor};
                     border-bottom: 1px solid ${({themeStyle , theme}) => themeStyle[theme].borderColor};
                     word-break: break-all;
-                    .email {
+                    &.email {
                         text-transform: lowercase;
                     }
                     span {
