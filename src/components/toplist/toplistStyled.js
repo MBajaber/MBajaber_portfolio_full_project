@@ -16,7 +16,7 @@ export const TopListStyled = styled.div`
             position: relative;
             overflow: hidden;
             height: 226px;
-            border-bottom: 1px solid whitesmoke;
+            border-bottom: 1px solid ${({themeStyle , theme}) => themeStyle[theme].borderColor};
             img {
                 width: 100%;
                 max-height: 225px;
