@@ -66,6 +66,7 @@ export const TopListStyled = styled.div`
         font-size: 14px;
         text-transform: capitalize;
         button {
+            color: ${({themeStyle , theme}) => themeStyle[theme].pramiaryTextColor};
             background-color: transparent;
             border: 0;
             font-size: 1rem;
