@@ -32,9 +32,7 @@ function App() {
       <Route component={PageNotFound} />
     </Switch>
   );
-    // MBajaber.github.io
-    // MBajaber.github.io
-    //  https://nifty-brahmagupta-02b200.netlify.app/
+
   return (
     <div className="App">
       <Sudebar />
