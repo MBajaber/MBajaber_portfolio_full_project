@@ -15,6 +15,8 @@ export const TopListStyled = styled.div`
         .top-img {
             position: relative;
             overflow: hidden;
+            height: 226px;
+            border-bottom: 1px solid whitesmoke;
             img {
                 width: 100%;
                 max-height: 225px;

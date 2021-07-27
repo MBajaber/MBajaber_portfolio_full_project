@@ -8,7 +8,6 @@ import { MyContext } from '../Context/context';
 function App() {
   const context = useContext(MyContext);
   const mainColor = useState(JSON.parse(localStorage.getItem('main_color')) || context.mainColor)[0];
-
   const MainLazy = lazy(() => import('../Pages/Home/home'));
   const AboutLazy = lazy(() => import('../Pages/About/about'));
   const Sevices = lazy(() => import('../Pages/Services/Services'));

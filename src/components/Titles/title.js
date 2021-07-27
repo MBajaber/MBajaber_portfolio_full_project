@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-// import './title.css';
 import { MyContext } from '../../Context/context';
 import { TitleStyled } from './titleStyled';
 

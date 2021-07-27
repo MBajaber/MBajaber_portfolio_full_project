@@ -1,10 +1,8 @@
 import React, { useContext } from 'react';
-// import './toplist.css';
 import { TopListStyled } from './toplistStyled';
 import { MyContext } from '../../Context/context';
 
 function Toplist(props) {
-    // ${({themeStyle , theme}) => themeStyle[theme].pramiaryTextColor}
     const context = useContext(MyContext);
     return (
         <TopListStyled themeStyle={context.themeStyle} theme={context.theme}>
