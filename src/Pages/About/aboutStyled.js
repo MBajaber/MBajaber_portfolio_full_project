@@ -80,7 +80,7 @@ export const AboutStyled = styled.div`
                 }
             }
             .about_btn_links {
-                max-width: 350px;
+                max-width: 390px;
                 margin-top: 40px;
                 display: flex;
                 align-items: center;

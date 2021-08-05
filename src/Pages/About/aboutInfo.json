@@ -15,14 +15,19 @@
     "link": "/skills/sass.png"
   },
   {
+    "class": "javaScript",
+    "alt": "JavaScript",
+    "link": "/skills/javascript.png"
+  },
+  {
     "class": "react",
     "alt": "React",
     "link": "/skills/react.png"
   },
   {
-    "class": "javaScript",
-    "alt": "JavaScript",
-    "link": "/skills/javascript.png"
+    "class": "jquery",
+    "alt": "Jquery",
+    "link": "/skills/jquery.png"
   },
   {
     "class": "bootstrap",
