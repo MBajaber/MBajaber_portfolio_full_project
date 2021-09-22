@@ -250,5 +250,90 @@
         "photoLink": "/portfolio/p37.png",
         "githubLink": "https://github.com/MBajaber/chatting_app_full_project",
         "websiteLink": "https://keen-lalande-9b60c4.netlify.app/"
+    },
+    
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p38.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
+    },
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p39.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
+    },
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p40.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
+    },
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p41.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
+    },
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p42.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
+    },
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p43.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
+    },
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p44.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
+    },
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p45.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
+    },
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p46.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
+    },
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p47.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
+    },
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p48.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
+    },
+    {
+        "text": "TMDB Movies",
+        "type": ["all","movie", "react"],
+        "photoLink": "/portfolio/p49.png",
+        "githubLink": "https://github.com/MBajaber/TMDB-Movies",
+        "websiteLink": "https://determined-yonath-375e15.netlify.app/"
     }
 ]
