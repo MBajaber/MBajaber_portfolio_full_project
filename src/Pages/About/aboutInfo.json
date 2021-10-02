@@ -38,5 +38,10 @@
     "class": "git",
     "alt": "Git",
     "link": "/skills/git.png"
+  },
+  {
+    "class": "nextjs",
+    "alt": "Nextjs",
+    "link": "/skills/nextjs.png"
   }
 ]
