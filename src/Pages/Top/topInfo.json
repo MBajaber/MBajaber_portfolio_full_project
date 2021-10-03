@@ -35,20 +35,20 @@
         ]
     },
     {
-        "imageAlt":"Chatting Message Application",
-        "date":"27 Jul 2021",
-        "title":"Chatting Message Application",
-        "paragraph":"it's a Chatting application between all users who signed in by google Authentication it looks like WhatsApp, you can see all users signed in and you can see who is Online and Offline also you can know if your friend sees a message or not and from users side you can see the last message. if you didn't see the message you will get a notification of how many messages you didn't see it.",
+        "imageAlt":"Movies Website",
+        "date":"27 Sep 2021",
+        "title":"Movies Website",
+        "paragraph":"it's a Movies website for watch movies with different genres movies with a nice UI for users with different colors you have Popular Movies, Top Rated Movies, Upcoming Movies, Popular Movies, Now Playing Movies and Favorite page, the user can't add Movie to the favorite page if he is not login and if the user reloads the browser you will find favorite list because I save all data in localStorage. I connected the Authentication with firebase. you can search by movie or actor from the search bar also each movie has special genes and keywords for search and actors and trailer and Recommendation movies.",
         "link": "/tops/p2.png",
         "tags":[
             "Html",
             "Css",
             "React",
             "Redux",
-            "Axios",
             "React",
             "Router",
-            "Firebase Database"
+            "Firebase",
+            "Material UI"
         ]
     }
 ]
