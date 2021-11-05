@@ -56,7 +56,7 @@ function Portfolio() {
                                         <h4>{list.text}</h4>
                                         <RiFullscreenFill onClick={() => popupHandler({link: process.env.PUBLIC_URL + list.photoLink, text: list.text})} size={25} />
                                     </div>
-                                    <img src={process.env.PUBLIC_URL + list.photoLink} alt={`${list.text} Gallery ${index + 1}`} loading='lazy' />
+                                    <img src={process.env.PUBLIC_URL + list.photoLink} alt={`${list.text} Gallery ${index + 1}`} />
                                 </div>
                                 <div className='icon-svg'>
                                     <a href={list.githubLink} className='github_link' rel="noopener noreferrer" target='_blank' >
