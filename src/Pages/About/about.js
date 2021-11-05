@@ -15,7 +15,7 @@ function About() {
                 <h3>
                     I'm Mohammed Bajaber a <span>Front End developer</span>
                 </h3>
-                <p>I'm a Front End Developer adept in all stages of advanced web development. Knowledgeable in user interface, I Design, Develop and implement websites using HTML, CSS, JavaScript and other Frameworks like React Redux, I can deliver a compatible website for different devices, browsers, and platforms.</p>
+                <p>I'm a Front End Developer adept in all stages of advanced web development. Knowledgeable in user interface, I Design, Develop and implement websites using HTML, CSS, JavaScript and other Frameworks like React, Redux, and next js. I can deliver a compatible website for different devices, browsers, and platforms.</p>
             </div>
             <div className='person-info'>
                 <h2 className='section-title'>Skills:</h2>
@@ -65,7 +65,7 @@ function About() {
                         </li>
                     </ul>
                     <div className='about_btn_links'>
-                        <a href={process.env.PUBLIC_URL + 'Mohammed Bajaber ( Front End Developer ).pdf'} target='_blank' rel="noreferrer">download Ruseme</a>
+                        <a href={process.env.PUBLIC_URL + 'Mohammed Bajaber Resume (Front-End Developer).pdf'} target='_blank' rel="noreferrer">download Ruseme</a>
                         <NavLink to='/contact'>hire me</NavLink>
                     </div>
                 </div>

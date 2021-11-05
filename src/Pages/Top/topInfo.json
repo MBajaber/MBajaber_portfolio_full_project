@@ -3,19 +3,19 @@
         "imageAlt":"shopping",
         "date":"1 Jul 2021",
         "title":"responsive shopping Website",
-        "paragraph":"Shopping Creative design with Responsive on all Devices in the English Language with 7 different Pages with different design page one for Landing page Show All Items and Second page for items Page with show quantity, Size also you can make zoom on image item and third page For Shopping Card Show Items that Choose and see Price With Cost and we have checkout button to continue payment i connected on stripe checkout.",
+        "paragraph":"Shopping Creative design with Responsive on all Devices in the English Language with 5 different Pages with different design page one for Landing page Show All Items and Second page for items Page with show quantity, Size also you can make zoom on image item and third page For Shopping Card Show Items that Choose and see Price With Cost and we have checkout button to continue payment I connected on stripe checkout and fourth and fifth for sign in and sign up.",
         "link": "/tops/p28.png",
         "tags":[
             "Html",
-            "Css",
+            "Sass",
             "React",
-            "Redux",
-            "Axios",
-            "React",
-            "Router",
+            "Redux Toolkit",
+            "next js",
             "Firebase",
-            "Node"
-        ]
+            "stripe"
+        ],
+        "github_link": "https://github.com/MBajaber/e_commerce_with_nextjs",
+        "live_link": "https://e-commerce-with-nextjs.vercel.app"
     },
     {
         "imageAlt":"MyQuran App",
@@ -32,7 +32,9 @@
             "Router",
             "Firebase",
             "styled Components"
-        ]
+        ],
+        "github_link": "https://github.com/MBajaber/my_quran_app_full_source",
+        "live_link": "https://myquran-c6fc9.web.app"
     },
     {
         "imageAlt":"Movies Website",
@@ -49,6 +51,8 @@
             "Router",
             "Firebase",
             "Material UI"
-        ]
+        ],
+        "github_link": "https://github.com/MBajaber/TMDB-Movies",
+        "live_link": "https://determined-yonath-375e15.netlify.app"
     }
 ]

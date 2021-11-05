@@ -16,6 +16,10 @@ function Toplist(props) {
                     <p className="top-descri">{props.paragraph}</p>
                 </div>
             </div>
+            <div className='top_links'>
+                <button><a href={props.github_link} target='_blanck'>github</a></button>
+                <button><a href={props.live_link} target='_blanck'>live Demo</a></button>
+            </div>
             <div className="top-tags">
                 Tags: {props.tags.map(tag => <button key={`${tag}_${Math.random() * 10000}`}><a style={{color: props.color}} href={`#${tag.toLowerCase()}`}>{tag}</a>,</button> )}
             </div>

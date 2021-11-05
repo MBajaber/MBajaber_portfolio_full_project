@@ -58,6 +58,28 @@ export const TopListStyled = styled.div`
             }
         }
     }
+    .top_links {
+        width: 100%;
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+        button {
+            background-color: #39C2C9;
+            outline: 0;
+            padding: 10px 24px;
+            border-radius: 6px;
+            border: 0;
+            &:first-of-type {
+                margin: 0 20px;
+            }
+            a {
+                text-transform: capitalize; 
+                color: #fff;
+                font-weight: bold;
+                font-size: 16px;
+            }
+        }
+    }
     .top-tags {
         padding: 30px 15px;
         font-weight: 700;

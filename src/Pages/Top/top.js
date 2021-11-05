@@ -21,6 +21,8 @@ function Top() {
                         paragraph={list.paragraph}
                         tags={list.tags}
                         color={context.mainColor}
+                        github_link={list.github_link}
+                        live_link={list.live_link}
                     />
                 ))}
             </div>
